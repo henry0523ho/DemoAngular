@@ -1,0 +1,28 @@
+.header{
+    background-color: $primary-color;
+    border-bottom: 1px solid #ebebeb;
+    padding: 0 20px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .logo{
+        width: 100px;
+        height: 100%;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .menu{
+        display: flex;
+        align-items: center;
+        .menu-item{
+            margin-left: 20px;
+            cursor: pointer;
+            &:hover{
+                color: #1890ff;
+            }
+        }
+    }
+}
